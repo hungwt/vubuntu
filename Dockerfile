@@ -5,7 +5,7 @@ LABEL Maintainer "Apoorv Vyavahare <apoorvvyavahare@pm.me>"
 ARG DEBIAN_FRONTEND=noninteractive
 
 #VNC Server Password
-ENV VNC_PASS="samplepass" \
+ENV VNC_PASS="123456" \
 #VNC Server Title(w/o spaces)
     VNC_TITLE="Vubuntu_Desktop" \
 #VNC Resolution(720p is preferable)
